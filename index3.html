@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Iconnet</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ICONNET-text {
+            color: #00008B; /* Dark blue */
+        }
+        .jumbo-text {
+            color: #FFD700; /* Yellow */
+        }
+        .promo-bg {
+            background-color: #FFD700; /* Yellow */
+        }
+    </style>
+</head>
+<link rel="icon" type="image/png" href="../img/logotab.png">
+<body class="bg-gray-100">
+
+<nav class="bg-blue-600 shadow-lg fixed w-full z-10">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <a href="index.html" class="flex items-center">
+                <img src="/img/navimg.png" alt="Logo">
+            </a>
+            
+            <input type="checkbox" id="nav-toggle" class="hidden fixed top-4 left-4" checked="false">
+            <label for="nav-toggle" class="block md:hidden cursor-pointer">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </label>
+            
+            <div class="hidden md:flex md:space-x-4">
+                <a href="index.html" class="text-white font-semibold hover:text-gray-200">Home</a> 
+                <span class="text-white">|</span> 
+                <a href="index4.html" class="text-white font-semibold hover:text-gray-200">Promo</a> 
+                <span class="text-white">|</span>
+                <a href="index2.html" class="text-white font-semibold hover:text-gray-200">Syarat & Ketentuan</a> 
+                <span class="text-white">|</span> 
+                <a href="index3.html" class="text-white font-semibold hover:text-gray-200">Metode Pembayaran</a> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="md:hidden bg-blue-500">
+        <div class="max-w-7xl mx-auto px-4 py-2 nav-menu"> 
+            <a href="index.html" class="block text-white font-semibold hover:text-gray-200 py-2">Home</a> 
+            <a href="index4.html" class="block text-white font-semibold hover:text-gray-200 py-2">Promo</a> 
+            <a href="index2.html" class="block text-white font-semibold hover:text-gray-200 py-2">Syarat & Ketentuan</a>
+            <a href="index3.html" class="block text-white font-semibold hover:text-gray-200 py-2">Metode Pembayaran</a> 
+        </div>
+    </div>
+</nav>
+
+<section class="py-8 bg-gray-100 pt-20">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-8 leading-tight text-center">
+            <span class="iconnet-text">ICONNET</span> <span class="jumbo-text">JUMBO</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-8 justify-center">
+            <div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="img/PROMO.jpg" alt="Paket" class="w-full h-auto">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-4 promo-bg">ICONNET JUMBO</h3>
+                        <p class="text-gray-700 promo-bg"><b>JU</b>li <b>M</b>eriah <b>B</b>anyak Prom<b>O</b></p>
+                        <div class="p-4 text-left">
+                            <p class="text-gray-700">
+                                <ul class="list-disc list-inside">
+                                    <li><span class="font-semibold">Hebat-12 Bulan  :</span> Gratis 3 Bulan, Bayar 9 Bulan </li>
+                                    <li><span class="font-semibold">Bayar 12 Bulan :</span> Gratis 3 Bulan, Bayar 9 Bulan </li>
+                                    <li><span class="font-semibold"><s> Rp250.000</s></span> Gratis Biaya Instalasi </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="md:flex md:justify-center md:space-x-4 mt-20">
+    <a href="index.html" class="text-black-500 font-semibold hover:text-gray-600">Home</a> 
+    <span class="text-black-500">|</span>
+    <a href="index4.html" class="text-black-500 font-semibold hover:text-gray-600">Promo</a>
+    <span class="text-black-500">|</span>
+    <a href="index2.html" class="text-black-500 font-semibold hover:text-gray-600">Syarat & Ketentuan</a> 
+    <span class="text-black-500">|</span>
+    <a href="index3.html" class="text-black-500 font-semibold hover:text-gray-600">Metode Pembayaran</a> 
+  
+</div>
+
+<footer class="bg-gray-800 text-white py-4 mt-10">
+    <div class="container mx-auto flex flex-col items-center justify-center">
+        <img src="/img/navimg.png" alt="Logo" class="w-20 mb-2">
+        <p class="text-sm">© 2024 daftariconnet.id</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
